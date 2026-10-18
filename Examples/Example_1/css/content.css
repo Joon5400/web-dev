@@ -1,0 +1,43 @@
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.introduction img {
+    width: 45%;
+    height: auto;
+}
+
+.introduction-text {
+    flex: 1;
+    text-align: right;
+}
+
+@keyframes content-enter {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .introduction {
+        animation: content-enter 400ms ease-out;
+    }
+}

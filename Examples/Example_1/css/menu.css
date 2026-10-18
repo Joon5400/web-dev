@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* margin is for the entire container, padding is for the content inside the container */
+}
+
+.menu {
+    background-color: #992828;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+
+.menu h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.menu a:hover {
+    color: #ffa2a2;
+}
+
+.menu a:active {
+    color: #ff0000;
+}
+
