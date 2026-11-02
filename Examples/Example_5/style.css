@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f0e9;
+}
+
+.cafe {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #6f4e37;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    background: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4b3324;
+}
+
+#order-list {
+    padding-left: 20px;
+}
+
+#order-list li {
+    padding: 8px 0;
+}
+
+.remove {
+    margin: 0 0 0 10px;
+    padding: 5px 8px;
+    background: #b91c1c;
+}
+
+#clear {
+    background: #64748b;
+}

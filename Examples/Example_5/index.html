@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="cafe">
+        <h1>☕ Java Café</h1>
+        <p>Select your food and drinks!</p>
+
+        <!-- Menu selection -->
+        <label for="menu">Menu</label>
+        <select id="menu">
+            <option value="coffee">Coffee - $3.00</option>
+            <option value="latte">Latte - $4.50</option>
+            <option value="tea">Tea - $2.50</option>
+            <option value="muffin">Muffin - $3.50</option>
+            <option value="sandwich">Sandwich - $7.00</option>
+        </select>
+
+        <!-- Quantity -->
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" min="1" max="20" value="1">
+
+        <button id="add">Add to Order</button>
+
+        <!-- Customer order -->
+        <h2>Your Order</h2>
+        <ul id="order-list"></ul>
+        <p id="empty">Your order is empty.</p>
+
+        <h2>Total: <span id="total">$0.00</span></h2>
+
+        <button id="clear">Clear Order</button>
+    </main>
+
+</body>
+</html>
